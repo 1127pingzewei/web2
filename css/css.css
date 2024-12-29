@@ -1,0 +1,340 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #F1F6F9;
+}
+
+li {
+	list-style: none;
+}
+
+li:hover {
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	width: 100%;
+	height: 228px;
+	background-color: #790007;
+}
+
+.row {
+	width: 1200px;
+	height: 108px;
+	margin: auto;
+	padding-top: 60px;
+}
+
+.rolin {
+	width: 98%;
+	height: 48px;
+	margin: auto;
+}
+
+.rowl {
+	height: 100%;
+	float: left;
+	font-weight: 900;
+	font-size: 35px;
+	text-shadow: 0px 5px 5px #b16037;
+	color: #b16037;
+}
+
+.rowr,
+.rowr ul {
+	width: 580px;
+	height: 100%;
+	float: right;
+}
+
+.rowr ul li {
+	float: left;
+	line-height: 48px;
+}
+
+.li1 a,
+.li1,
+.li2 {
+	font-size: 14px;
+	color: gray;
+}
+
+.li1 a:hover {
+	color: #790007;
+}
+
+.li2 {
+	margin-left: 30px;
+}
+
+.li3 {
+	width: 340px;
+	height: 40px;
+	margin-left: 20px;
+}
+
+.li3 input {
+	height: 40px;
+	width: 225px;
+	border: 0;
+	background: white url(../image/search.png) 12px 9px no-repeat;
+	padding-left: 40px;
+	font-size: 16px;
+	border-radius: 4px 0 0 4px;
+}
+
+.li3 button {
+	width: 75px;
+	height: 40px;
+	background: #790007;
+	border: 0;
+	border-radius: 0 4px 4px 0;
+	color: white;
+	font-size: 18px;
+}
+
+/* 导航 */
+.nav {
+	width: 100%;
+	height: 60px;
+	background-color: #8F000B;
+}
+
+.nav ul {
+	width: 1200px;
+	margin: auto;
+	height: 100%;
+}
+
+.nav li {
+	width: 20%;
+	height: 60px;
+	line-height: 60px;
+	float: left;
+	text-align: center;
+}
+
+.nav a {
+	color: white;
+	font-size: 18px;
+}
+
+.nav li:hover {
+	background: #790007;
+}
+
+.contentl {
+	text-align: center;
+	margin-top: 30px;
+	background: url(../image/banner.png);
+	background-size: 100% 100%;
+	height: 400px;
+	width: 1200px;
+	margin: auto;
+}
+
+.szyw {
+	width: 1160px;
+	height: 472px;
+	margin: 20px auto;
+	background-color: white;
+	padding: 20px;
+}
+
+.title {
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	margin-bottom: 20px;
+}
+
+.title div {
+	width: 40px;
+	height: 32px;
+	float: left;
+}
+
+.title .sz {
+	background: url(../image/szyw.png) 5px center no-repeat;
+}
+
+.title span {
+	font-size: 22px;
+	margin-left: 10px;
+	float: left;
+}
+
+.gd {
+	float: right;
+	font-size: 14px;
+	color: gray;
+}
+
+.gd:hover {
+	color: #8F000B;
+}
+
+.new-list {
+	width: 100%;
+	height: 420px;
+}
+
+.newl {
+	width: 50%;
+	height: 420px;
+	float: left;
+	position: relative;
+}
+.newl img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.itemc p,
+.itemc1 p,
+.itemc2 p {
+	padding: 20px 10px;
+	width: 555px;
+	font-size: 14px;
+}
+
+.newr {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.newrin {
+	width: 540px;
+	height: 100%;
+	margin-left: 20px;
+	padding: 0 10px;
+}
+
+.newrin ul {
+	width: 100%;
+}
+
+.newrin li {
+	width: 100%;
+	height: 20px;
+	border-bottom: 1px dashed #bcbcbc;
+	padding: 15px 0;
+}
+
+.newrin .name {
+	font-size: 16px;
+	color: #303030;
+	width: 80%;
+	float: left;
+}
+
+.newrin .name:hover {
+	color: #8F000B;
+}
+
+.newrin .date {
+	float: right;
+	text-align: right;
+	font-size: 14px;
+	color: #909090;
+}
+
+.qigong {
+	width: 1200px;
+	height: 402px;
+	margin: auto;
+}
+
+.qydj,
+.gzdt {
+	width: 550px;
+	height: 462px;
+	background-color: white;
+	padding: 20px;
+}
+
+.qydj {
+	float: left;
+}
+
+.gzdt {
+	float: right;
+}
+
+.party {
+	background: url(../image/party.png) 5px center no-repeat;
+}
+
+.trend {
+	background: url(../image/trend.png) 5px center no-repeat;
+}
+
+.qydj .newl,
+.gzdt .newl {
+	width: 100%;
+}
+
+.qydj .itemc1,
+.gzdt .itemc2 {
+	width: 100%;
+}
+
+.qydj .itemc1 p,
+.gzdt .itemc2 p {
+	width: 530px;
+}
+
+.tu {
+	width: 1200px;
+	height: 1626px;
+	margin: 20px auto;
+}
+
+.tul {
+	width: 840px;
+	height: 1486px;
+	float: left;
+}
+
+.tur {
+	width: 300px;
+	height: 1400px;
+	float: right;
+}
+
+.master {
+	background: url(../image/master.png) 5px center no-repeat;
+}
+
+
+/* 底部版权 */
+footer {
+	width: 100%;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 20px;
+	background-color: #8F000B;
+	color: white;
+}
+
+
+.feng {
+	width: 1200px;
+	margin: auto;
+
+}
+
+.feng img {
+	width: 20%;
+	height: 200px;
+	margin-top: 30px;
+}
